@@ -1,0 +1,142 @@
+/* ==========================================================================
+	#pjCbHeading
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbHeading { background: #fafafa; }
+
+#pjWrapper .pjCbBtnBack .text-muted { color: #1ab3c1; font-weight: bold; }
+#pjWrapper .pjCbBtnBack:hover .text-muted { color: #e37d4c; }
+
+/* ==========================================================================
+	#pjCbFormDate
+========================================================================== */
+#pjWrapper .pjCbFormDate .pjCbTitle { color: #1ab3c1; font-weight: bold; }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control:focus { border-color: #e37d4c; }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control,
+#pjWrapper .pjCbFormDate .input-group .input-group-addon { color: #1ab3c1; }
+#pjWrapper .pjCbFormDate .input-group .input-group-addon:hover { color: #e37d4c; }
+#pjWrapper .pjCbFormDate .btn-link { color: #1ab3c1; font-weight: bold; }
+#pjWrapper .pjCbFormDate .btn-link:hover { color: #e37d4c; }
+#pjWrapper .pjCbFoot .pjCbFormDate .control-label { color: #1ab3c1; }
+
+/* ==========================================================================
+	#pjCbLocal
+========================================================================== */
+#pjWrapper .pjCbLocalTrigger { border-color: #d0dad9; background: #fafafa; color: #1ab3c1; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCbLocalTrigger:hover { border-color: #d0dad9; background: #fafafa; color: #e37d4c; }
+#pjWrapper .pjCbLocal.open .pjCbLocalTrigger { border-color: #e37d4c; background: #fafafa; color: #e37d4c; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu a { color: #1ab3c1; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:focus { background: #e37d4c; color: #fff; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:focus { background: #1ab3c1; color: #fff; }
+
+/* ==========================================================================
+	#pjCbBody
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbBody { background: #fff; }
+
+/* ==========================================================================
+	#pjCbTableEvents
+========================================================================== */
+#pjWrapper .pjCbTableEvents .table .active th { background: #e9efef; color: #1ab3c1; }
+#pjWrapper .pjCbTableEvents tr:hover { background: #1ab3c1; }
+
+#pjWrapper .pjCbTableEvents .table tr:hover .active .text-muted,
+#pjWrapper .pjCbTableEvents .table .active .text-muted { color: #1ab3c1; }
+#pjWrapper .pjCbTableEvents strong { color: #35393a; }
+#pjWrapper .pjCbTableEvents a { color: #e37d4c; }
+#pjWrapper .pjCbTableEvents a strong { color: #1ab3c1; }
+
+/* ==========================================================================
+	#pjCbMovieInfo
+========================================================================== */
+#pjWrapper .pjCbMovieInfo .pjCbMovieTitle { color: #1ab3c1; }
+#pjWrapper .pjCbMovieInfo .pjCbMovieMeta { color: #e37d4c; }
+#pjWrapper .pjCbMovieInfo p { color: #4d4d4d; }
+
+/* ==========================================================================
+	#Well
+========================================================================== */
+#pjWrapper .pjCbBody .well { background: #e9efef; }
+#pjWrapper .pjCbBody .pjCbSeatsTitle { color: #1ab3c1; }
+#pjWrapper .pjCbBody .well,
+#pjWrapper .pjCbBody .well p { color: #4d4d4d; }
+#pjWrapper .pjCbBody .pjCbSeatsInfo strong { color: #e37d4c; }
+#pjWrapper .pjCbBody .well .alert-info { border-color: #e37d4c; background: #e37d4c; color: #fff; text-transform: uppercase; font-weight: bold; }
+#pjWrapper .pjCbBody .well .alert-success { border-color: #1ab3c1; background: #1ab3c1; color: #f7f7f7; font-weight: bold; }
+
+#pjWrapper .pjCbBody .pjCbSeatsMessage,
+#pjWrapper .pjCbFoot .pjCbSeatsMessage,
+#pjWrapper .pjCbFormSeats .control-label { color: #e37d4c; }
+
+#pjWrapper .pjCbBody .tbAssignedSeats { background: #1ab3c1; font-weight: bold; }
+
+/* ==========================================================================
+	#pjCbCinema
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatSelected,
+#pjWrapper .pjCbSeatsColors .btn-primary { border-color: #e37d4c; background-color: #e37d4c; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatAvailable,
+#pjWrapper .pjCbSeatsColors .btn-success { border-color: #1ab3c1; background-color: #1ab3c1; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatBlocked,
+#pjWrapper .pjCbSeatsColors .btn-danger { border-color: #343a38; background-color: #343a38; }
+#pjWrapper .pjCbSeats .tbContinueLink { color: #e37d4c; text-transform: uppercase; }
+
+/* ==========================================================================
+	#pjCbFormCheckOut
+========================================================================== */
+#pjWrapper .pjCbModalTitle,
+#pjWrapper .pjCbFormCheckOut .pjCbFormTitle { color: #1ab3c1; text-align: center; }
+#pjWrapper .pjCbModalTitle { text-transform: uppercase; }
+#pjWrapper .pjCbFormCheckOut .control-label { color: #e37d4c; }
+#pjWrapper .pjCbFormCheckOut .form-control:focus { border-color: #57ad32; }
+#pjWrapper .pjCbModal .modal-body { color: #4d4d4d; }
+#pjWrapper .pjCbModalTrigger { color: #1ab3c1; font-weight: bold; }
+#pjWrapper .pjCbModalTrigger:hover,
+#pjWrapper .pjCbModalTrigger:focus { color: #e37d4c; }
+
+/* ==========================================================================
+	#pjCbPayment
+========================================================================== */
+#pjWrapper .pjCbPaymentTitle { color: #1ab3c1; }
+#pjWrapper .pjCbPayment strong { color: #e37d4c; }
+#pjWrapper .pjCbPayment .form-horizontal label.text-muted,
+#pjWrapper .pjCbPayment .text-muted { color: #4d4d4d; }
+#pjWrapper .pjCbPayment span.text-muted,
+#pjWrapper .pjCbPayment .form-horizontal label { color: #e37d4c; }
+
+#pjWrapper .pjCbMessage { color: #e37d4c; font-weight: bold; }
+#pjWrapper .pjCbMessageSucces { color: #1ab3c1; }
+
+/* ==========================================================================
+	#pjCbFoot
+========================================================================== */
+#pjWrapper .pjCbFoot { background: #fafafa; }
+
+#pjWrapper .pjCbBtn { font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCbBtn:focus { border-color: #e37d4c; color: #e37d4c; }
+
+#pjWrapper .pjCbBtnPrimary { border-color: #1ab3c1; background: #1ab3c1; color: #fff; }
+#pjWrapper .pjCbBtnPrimary:hover { border-color: #e37d4c; background: #e37d4c; color: #fff; }
+
+#pjWrapper .pjCbBtnSecondary { border-color: #e37d4c; color: #e37d4c; }
+#pjWrapper .pjCbBtnSecondary:hover { border-color: #d27530; color: #d27530; }
+
+/* ==========================================================================
+	#New First Step Layout
+========================================================================== */
+#pjWrapper .pjCbWeekPanel a { border-color: #e37d4c; color: #e37d4c; }
+#pjWrapper .pjCbWeekPanel a:hover,
+#pjWrapper .pjCbWeekPanel a:focus,
+#pjWrapper .pjCbWeekPanel a.active { border-color: #d27530; color: #d27530; text-decoration: none; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle { color: #1ab3c1; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle:hover { color: #d27530; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDuration { color: #d27530; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDesc { color: #4d4d4d; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime label { color: #35393a; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:focus { background: #e37d4c; color: #fff; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:focus { background: #1ab3c1; text-decoration: none; }

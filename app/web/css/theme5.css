@@ -1,0 +1,145 @@
+/* ==========================================================================
+	#pjCbHeading
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbHeading { background: #f8f8f6; }
+
+#pjWrapper .pjCbBtnBack .text-muted { color: #9acf5b; font-weight: bold; }
+#pjWrapper .pjCbBtnBack:hover .text-muted { color: #77a63e; }
+
+/* ==========================================================================
+	#pjCbFormDate
+========================================================================== */
+#pjWrapper .pjCbFormDate .pjCbTitle { color: #56af6f; font-weight: bold; }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control:focus { border-color: #9acf5b; color: #9acf5b; }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control,
+#pjWrapper .pjCbFormDate .input-group .input-group-addon { color: #77a63e; }
+#pjWrapper .pjCbFormDate .input-group .input-group-addon:hover { color: #9acf5b; }
+#pjWrapper .pjCbFormDate .btn-link { color: #77a63e; font-weight: bold; }
+#pjWrapper .pjCbFormDate .btn-link:hover { color: #9acf5b; }
+#pjWrapper .pjCbFoot .pjCbFormDate .control-label { color: #56af6f; }
+
+/* ==========================================================================
+	#pjCbLocal
+========================================================================== */
+#pjWrapper .pjCbLocalTrigger { border: 0; border-bottom: 2px solid #d7dacf; background: #e3e3e1; color: #56af6f; font-weight: bold; text-transform: uppercase; -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjCbLocalTrigger:hover { border: 0; border-bottom: 2px solid #d7dacf; background: #d7dacf; color: #56af6f; }
+#pjWrapper .pjCbLocal.open .pjCbLocalTrigger { border: 0; border-bottom: 2px solid #d7dacf; background: #d7dacf; color: #77a63e; -webkit-box-shadow: none; box-shadow: none; }
+
+#pjWrapper .pjCbLocal .pjCbLocalMenu a { color: #56af6f; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:focus { background: #77a63e; color: #fff; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:focus { background: #56af6f; color: #fff; }
+
+/* ==========================================================================
+	#pjCbBody
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbBody { background: #e3e3e1; }
+
+/* ==========================================================================
+	#pjCbTableEvents
+========================================================================== */
+#pjWrapper .pjCbTableEvents .table .active th { background: #f8f8f6; color: #56af6f; }
+
+#pjWrapper .pjCbTableEvents tr { background: #fff; }
+#pjWrapper .pjCbTableEvents tr:hover { background: #9acf5b; }
+
+#pjWrapper .pjCbTableEvents .table tr:hover .active .text-muted,
+#pjWrapper .pjCbTableEvents .table .active .text-muted { color: #77a63e; }
+#pjWrapper .pjCbTableEvents strong { color: #3e3838; }
+#pjWrapper .pjCbTableEvents a { color: #77a63e; }
+#pjWrapper .pjCbTableEvents a strong { color: #77a63e; }
+
+/* ==========================================================================
+	#pjCbMovieInfo
+========================================================================== */
+#pjWrapper .pjCbMovieInfo .pjCbMovieTitle { color: #56af6f; }
+#pjWrapper .pjCbMovieInfo .pjCbMovieMeta { color: #77a63e; }
+#pjWrapper .pjCbMovieInfo p { color: #4b4f50; }
+
+/* ==========================================================================
+	#Well
+========================================================================== */
+#pjWrapper .pjCbBody .well { background: #f8f8f6; }
+#pjWrapper .pjCbBody .pjCbSeatsTitle { color: #56af6f; }
+#pjWrapper .pjCbBody .well,
+#pjWrapper .pjCbBody .well p { color: #4b4f50; }
+#pjWrapper .pjCbBody .pjCbSeatsInfo strong { color: #77a63e; }
+#pjWrapper .pjCbBody .well .alert-info { border-color: #77a63e; background: #9acf5b; color: #fff; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCbBody .well .alert-success { border-color: #56af6f; background: #56af6f; color: #f7f7f7; font-weight: bold; text-transform: uppercase; }
+
+#pjWrapper .pjCbBody .pjCbSeatsMessage,
+#pjWrapper .pjCbFoot .pjCbSeatsMessage,
+#pjWrapper .pjCbFormSeats .control-label { color: #77a63e; }
+
+#pjWrapper .pjCbBody .tbAssignedSeats { background: #56af6f; font-weight: bold; }
+#pjWrapper .pjCbSeats .tbContinueLink { color: #3e3838; }
+
+/* ==========================================================================
+	#pjCbCinema
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatSelected,
+#pjWrapper .pjCbSeatsColors .btn-primary { border-color: #56af6f; background-color: #56af6f; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatAvailable,
+#pjWrapper .pjCbSeatsColors .btn-success { border-color: #77a63e; background-color: #77a63e; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatBlocked,
+#pjWrapper .pjCbSeatsColors .btn-danger { border-color: #3e3838; background-color: #3e3838; }
+
+/* ==========================================================================
+	#pjCbFormCheckOut
+========================================================================== */
+#pjWrapper .pjCbModalTitle,
+#pjWrapper .pjCbFormCheckOut .pjCbFormTitle { color: #56af6f; text-align: center; }
+#pjWrapper .pjCbModalTitle { text-transform: uppercase; }
+#pjWrapper .pjCbFormCheckOut .control-label { color: #77a63e; }
+#pjWrapper .pjCbFormCheckOut .form-control:focus { border-color: #56af6f; }
+#pjWrapper .pjCbModal .modal-body { color: #535c63; }
+#pjWrapper .pjCbModalTrigger { color: #77a63e; font-weight: bold; }
+#pjWrapper .pjCbModalTrigger:hover,
+#pjWrapper .pjCbModalTrigger:focus { color: #56af6f; }
+
+/* ==========================================================================
+	#pjCbPayment
+========================================================================== */
+#pjWrapper .pjCbPaymentTitle { color: #56af6f; }
+#pjWrapper .pjCbPayment strong { color: #77a63e; }
+#pjWrapper .pjCbPayment .form-horizontal label.text-muted,
+#pjWrapper .pjCbPayment .text-muted { color: #4b4f50; }
+#pjWrapper .pjCbPayment span.text-muted,
+#pjWrapper .pjCbPayment .form-horizontal label { color: #77a63e; }
+
+#pjWrapper .pjCbMessage { color: #4b4f50; font-weight: bold; }
+#pjWrapper .pjCbMessageSucces { color: #77a63e; }
+
+/* ==========================================================================
+	#pjCbFoot
+========================================================================== */
+#pjWrapper .pjCbFoot { background: #f8f8f6; }
+
+#pjWrapper .pjCbBtn { border: 0; border-bottom: 2px solid #77a63e; background: #9acf5b; font-weight: bold; text-transform: uppercase; }
+#pjWrapper .pjCbBtn:focus { border-color: #77a63e; background: #77a63e; color: #fff; }
+
+#pjWrapper .pjCbBtnPrimary { border-color: #77a63e; background: #9acf5b; color: #fff; }
+#pjWrapper .pjCbBtnPrimary:hover { border-color: #77a63e; background: #77a63e; color: #fff; }
+
+#pjWrapper .pjCbBtnSecondary { border-color: #d7dacf; background: #e3e3e1; color: #56af6f; }
+#pjWrapper .pjCbBtnSecondary:hover { border-color: #d7dacf; background: #d7dacf; color: #56af6f; }
+
+/* ==========================================================================
+	#New First Step Layout
+========================================================================== */
+#pjWrapper .pjCbWeekPanel a { border-color: #77a63e; color: #77a63e; }
+#pjWrapper .pjCbWeekPanel a:hover,
+#pjWrapper .pjCbWeekPanel a:focus,
+#pjWrapper .pjCbWeekPanel a.active { border-color: #56af6f; color: #56af6f; text-decoration: none; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle { color: #56af6f; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle:hover { color: #77a63e; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDuration { color: #77a63e; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDesc { color: #4b4f50; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime label { color: #56af6f; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:focus { background: #77a63e; color: #fff; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:focus { background: #9acf5b; text-decoration: none; }

@@ -1,0 +1,211 @@
+/* ==========================================================================
+	#pjCbHeading
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbHeading { background: #3d3938; }
+
+#pjWrapper .pjCbBtnBack .text-muted { color: #e73f1b; font-weight: bold; }
+#pjWrapper .pjCbBtnBack:hover .text-muted { color: #d0391c; }
+
+/* ==========================================================================
+	#pjCbFormDate
+========================================================================== */
+#pjWrapper .pjCbFormDate .pjCbTitle { color: #fff; font-weight: bold; }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control:focus { border-color: #d0391c; color: #e73f1b; -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .3); box-shadow: 0 0 10px rgba(255, 255, 255, .3); }
+#pjWrapper .pjCbContainer .pjCbFormDate .input-group .form-control,
+#pjWrapper .pjCbFormDate .input-group .input-group-addon { border-color: #191816; background: #292728; color: #fff; }
+#pjWrapper .pjCbFormDate .input-group .input-group-addon:hover { color: #e73f1b; }
+#pjWrapper .pjCbFormDate .btn-link { color: #fff; font-weight: bold; }
+#pjWrapper .pjCbFormDate .btn-link:hover { color: #e73f1b; }
+#pjWrapper .pjCbFoot .pjCbFormDate .control-label { color: #e73f1b; }
+
+/* ==========================================================================
+	#pjCbLocal
+========================================================================== */
+#pjWrapper .pjCbLocalTrigger { border-color: #191816; background: #292728; color: #fff; }
+#pjWrapper .pjCbLocalTrigger:hover { border-color: #191816; background: #292728; color: #e73f1b; }
+#pjWrapper .pjCbLocal.open .pjCbLocalTrigger { border-color: #191816; background: #191816; color: #e73f1b; }
+
+#pjWrapper .pjCbLocal .pjCbLocalMenu { background: #3d3938; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu a { color: #f5f5f5; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu a:focus { background: #191816; color: #fff; }
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:hover,
+#pjWrapper .pjCbLocal .pjCbLocalMenu .tbLocaleFocus:focus { background: #d0391c; color: #fff; }
+
+/* ==========================================================================
+	#pjCbBody
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbBody { background: #f3f1f2; }
+
+/* ==========================================================================
+	#pjCbTableEvents
+========================================================================== */
+#pjWrapper .pjCbTableEvents .table .active th { color: #fff; 
+	background: rgb(62,60,61);
+	background: -moz-linear-gradient(top,  rgba(62,60,61,1) 0%, rgba(46,44,45,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,60,61,1)), color-stop(100%,rgba(46,44,45,1)));
+	background: -webkit-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: -o-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: linear-gradient(to bottom,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3c3d', endColorstr='#2e2c2d',GradientType=0 );
+}
+
+#pjWrapper .pjCbTableEvents tr { background: #fff; }
+#pjWrapper .pjCbTableEvents tr:hover { border-color: #d0391c; 
+	background: rgb(243,76,42);
+	background: -moz-linear-gradient(top,  rgba(243,76,42,1) 0%, rgba(231,62,29,1) 95%, rgba(235,61,27,1) 97%, rgba(232,62,27,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,76,42,1)), color-stop(95%,rgba(231,62,29,1)), color-stop(97%,rgba(235,61,27,1)), color-stop(100%,rgba(232,62,27,1)));
+	background: -webkit-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -o-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: linear-gradient(to bottom,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34c2a', endColorstr='#e83e1b',GradientType=0 );
+}
+
+#pjWrapper .pjCbTableEvents .table tr:hover .active .text-muted,
+#pjWrapper .pjCbTableEvents .table .active .text-muted { color: #4e4e4e; }
+#pjWrapper .pjCbTableEvents strong { color: #4e4e4e; }
+#pjWrapper .pjCbTableEvents a { color: #e73f1b; }
+#pjWrapper .pjCbTableEvents a strong { color: #e73f1b; }
+
+/* ==========================================================================
+	#pjCbMovieInfo
+========================================================================== */
+#pjWrapper .pjCbMovieInfo .pjCbMovieTitle { color: #e73f1b; }
+#pjWrapper .pjCbMovieInfo .pjCbMovieMeta { color: #4e4e4e; }
+#pjWrapper .pjCbMovieInfo p { color: #767d85; }
+
+#pjWrapper .pjCbMovieEmptyDay { color: #e73f1b; }
+
+/* ==========================================================================
+	#Well
+========================================================================== */
+#pjWrapper .pjCbBody .well { background: #f7f7f7; }
+#pjWrapper .pjCbBody .pjCbSeatsTitle { color: #e73f1b; }
+#pjWrapper .pjCbBody .well,
+#pjWrapper .pjCbBody .well p { color: #767d85; }
+#pjWrapper .pjCbBody .pjCbSeatsInfo strong { color: #e73f1b; }
+#pjWrapper .pjCbBody .well .alert-info { border-color: #d0391c; color: #fff; font-weight: bold; text-transform: uppercase; 
+	background: rgb(243,76,42);
+	background: -moz-linear-gradient(top,  rgba(243,76,42,1) 0%, rgba(231,62,29,1) 95%, rgba(235,61,27,1) 97%, rgba(232,62,27,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,76,42,1)), color-stop(95%,rgba(231,62,29,1)), color-stop(97%,rgba(235,61,27,1)), color-stop(100%,rgba(232,62,27,1)));
+	background: -webkit-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -o-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: linear-gradient(to bottom,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34c2a', endColorstr='#e83e1b',GradientType=0 );
+}
+#pjWrapper .pjCbBody .well .alert-success { border-color: #2e2c2d; color: #f7f7f7; font-weight: bold; text-transform: uppercase; 
+	background: rgb(62,60,61);
+	background: -moz-linear-gradient(top,  rgba(62,60,61,1) 0%, rgba(46,44,45,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(62,60,61,1)), color-stop(100%,rgba(46,44,45,1)));
+	background: -webkit-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: -o-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	background: linear-gradient(to bottom,  rgba(62,60,61,1) 0%,rgba(46,44,45,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e3c3d', endColorstr='#2e2c2d',GradientType=0 );
+}
+
+#pjWrapper .pjCbBody .pjCbSeatsMessage,
+#pjWrapper .pjCbFoot .pjCbSeatsMessage,
+#pjWrapper .pjCbFormSeats .control-label { color: #e73f1b; }
+
+#pjWrapper .pjCbBody .tbAssignedSeats { background: #d0391c; font-weight: bold; }
+
+/* ==========================================================================
+	#pjCbCinema
+========================================================================== */
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatSelected,
+#pjWrapper .pjCbSeatsColors .btn-primary { border-color: #e73f1b; background-color: #e73f1b; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatAvailable,
+#pjWrapper .pjCbSeatsColors .btn-success { border-color: #57ad32; background-color: #57ad32; }
+#pjWrapper .pjCbContainer .pjCbCinema .tbSeatBlocked,
+#pjWrapper .pjCbSeatsColors .btn-danger { border-color: #343a38; background-color: #343a38; }
+#pjWrapper .pjCbSeats .tbContinueLink { color: #e73f1b; }
+
+/* ==========================================================================
+	#pjCbFormCheckOut
+========================================================================== */
+#pjWrapper .pjCbModalTitle,
+#pjWrapper .pjCbFormCheckOut .pjCbFormTitle { color: #e73f1b; text-align: center; }
+#pjWrapper .pjCbModalTitle { text-transform: uppercase; }
+#pjWrapper .pjCbFormCheckOut .control-label { color: #e73f1b; }
+#pjWrapper .pjCbFormCheckOut .form-control:focus { border-color: #e73f1b; }
+#pjWrapper .pjCbModal .modal-body { color: #4e4e4e; }
+#pjWrapper .pjCbModalTrigger { color: #e73f1b; font-weight: bold; }
+#pjWrapper .pjCbModalTrigger:hover,
+#pjWrapper .pjCbModalTrigger:focus { color: #d0391c; }
+
+/* ==========================================================================
+	#pjCbPayment
+========================================================================== */
+#pjWrapper .pjCbPaymentTitle { color: #e73f1b; }
+#pjWrapper .pjCbPayment strong { color: #e73f1b; }
+#pjWrapper .pjCbPayment .form-horizontal label.text-muted,
+#pjWrapper .pjCbPayment .text-muted { color: #4e4e4e; }
+#pjWrapper .pjCbPayment span.text-muted,
+#pjWrapper .pjCbPayment .form-horizontal label { color: #e73f1b; }
+
+#pjWrapper .pjCbMessage { color: #e73f1b; font-weight: bold; }
+#pjWrapper .pjCbMessageSucces { color: #4e4e4e; }
+
+/* ==========================================================================
+	#pjCbFoot
+========================================================================== */
+#pjWrapper .pjCbFoot { background: #3d3938; }
+
+#pjWrapper .pjCbBtn { font-weight: bold; }
+#pjWrapper .pjCbBtn:focus { border-color: #d0391c; color: #fff; 
+	background: rgb(243,76,42);
+	background: -moz-linear-gradient(top,  rgba(243,76,42,1) 0%, rgba(231,62,29,1) 95%, rgba(235,61,27,1) 97%, rgba(232,62,27,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,76,42,1)), color-stop(95%,rgba(231,62,29,1)), color-stop(97%,rgba(235,61,27,1)), color-stop(100%,rgba(232,62,27,1)));
+	background: -webkit-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -o-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: linear-gradient(to bottom,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34c2a', endColorstr='#e83e1b',GradientType=0 );
+}
+
+#pjWrapper .pjCbBtnPrimary { border-color: #d0391c; color: #fff; 
+	background: rgb(243,76,42);
+	background: -moz-linear-gradient(top,  rgba(243,76,42,1) 0%, rgba(231,62,29,1) 95%, rgba(235,61,27,1) 97%, rgba(232,62,27,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,76,42,1)), color-stop(95%,rgba(231,62,29,1)), color-stop(97%,rgba(235,61,27,1)), color-stop(100%,rgba(232,62,27,1)));
+	background: -webkit-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -o-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	background: linear-gradient(to bottom,  rgba(243,76,42,1) 0%,rgba(231,62,29,1) 95%,rgba(235,61,27,1) 97%,rgba(232,62,27,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34c2a', endColorstr='#e83e1b',GradientType=0 );
+}
+#pjWrapper .pjCbBtnPrimary:hover { border-color: #d0391c; color: #fff; 
+	background: rgb(232,62,27);
+	background: -moz-linear-gradient(top,  rgba(232,62,27,1) 0%, rgba(235,61,27,1) 3%, rgba(231,62,29,1) 5%, rgba(243,76,42,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,62,27,1)), color-stop(3%,rgba(235,61,27,1)), color-stop(5%,rgba(231,62,29,1)), color-stop(100%,rgba(243,76,42,1)));
+	background: -webkit-linear-gradient(top,  rgba(232,62,27,1) 0%,rgba(235,61,27,1) 3%,rgba(231,62,29,1) 5%,rgba(243,76,42,1) 100%);
+	background: -o-linear-gradient(top,  rgba(232,62,27,1) 0%,rgba(235,61,27,1) 3%,rgba(231,62,29,1) 5%,rgba(243,76,42,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(232,62,27,1) 0%,rgba(235,61,27,1) 3%,rgba(231,62,29,1) 5%,rgba(243,76,42,1) 100%);
+	background: linear-gradient(to bottom,  rgba(232,62,27,1) 0%,rgba(235,61,27,1) 3%,rgba(231,62,29,1) 5%,rgba(243,76,42,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e83e1b', endColorstr='#f34c2a',GradientType=0 );
+}
+
+#pjWrapper .pjCbBtnSecondary { border-color: #191816; background: #292728; color: #e73f1b; }
+#pjWrapper .pjCbBtnSecondary:hover { border-color: #191816; background: #191816; color: #e73f1b; }
+
+/* ==========================================================================
+	#New First Step Layout
+========================================================================== */
+#pjWrapper .pjCbWeekPanel a { border-color: #d0391c; color: #fff; }
+#pjWrapper .pjCbWeekPanel a:hover,
+#pjWrapper .pjCbWeekPanel a:focus,
+#pjWrapper .pjCbWeekPanel a.active { border-color: #e73f1b; color: #fff; text-decoration: none; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle { color: #e73f1b; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTitle:hover { color: #e73f1b; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDuration { color: #4e4e4e; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieDesc { color: #767d85; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime label { color: #e73f1b; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime .pjCbTimePassed:focus { background: #d0391c; color: #fff; }
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:hover,
+#pjWrapper .pjCbEventRow .pjCbMovieIntroContent .pjCbMovieTime a:focus { background: #e73f1b; text-decoration: none; }
